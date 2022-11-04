@@ -74,7 +74,7 @@
 
   /* tranistions-theme */
   .transitions-theme {
-    @apply transition-all duration-700 ease-in-out cursor-pointer;
+    @apply transition-all duration-700 ease-in-out cursor-pointer object-fill;
   }
 
 }
