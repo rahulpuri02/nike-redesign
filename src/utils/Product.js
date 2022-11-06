@@ -27,7 +27,7 @@ text, img, btn, rating, price }) {
 
       <div>
         <img 
-       src={img} alt="img/item-img" />
+       src={img} alt="item/img" />
       </div>
     </div>
     </>
