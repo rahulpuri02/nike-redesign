@@ -3,8 +3,8 @@ import React from 'react'
 function Title({title}) {
   return (
    <>
-   <div>
-    <h1>{title}</h1>
+   <div className='grid items-center '>
+    <h1 className='text-5xl lg:text-4xl md:3xl font-bold text-slate-900'>{title}</h1>
    </div>
    </>
   )
