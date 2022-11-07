@@ -1,24 +1,24 @@
 import React from 'react'
 import {StarIcon, ShoppingBagIcon} from "@heroicons/react/24/solid";
 
-function Product({id, color, shadow, title, 
+function Product({ifExists, id, color, shadow, title, 
 text, img, btn, rating, price }) {
 
   return (
     <>
-    <div className={`relative bg-gradient-to-b ${color} ${shadow}
-    grid items-center justify-items-center rounded-xl py-4 px-5 transition-all duration-500 ease-in-out w-full hover:scale-105`}>
-      <div className='grid items-center justify-items-center'>
+    <div className={`relative gap-3 bg-gradient-to-b ${color} ${shadow}
+    grid items-center ${ifExists ? 'justify-items-start pb-7' :' justify-items-center'} rounded-xl py-4 px-5 transition-all duration-500 ease-in-out w-full hover:scale-105`}>
+      <div className={`grid items-center $${ifExists ? 'justify-items-start' :' justify-items-center'}`}>
         <h1 className='text-xl lg:text-lg md:text-base font-medium  text-slate-200 filter drop-shadow'>{title}</h1>
         <p className='text-slate-200 filter drop-shadow text-base  md:text-sm font-normal'>{text}</p>
        
-        <div className='flex items-center justify-between w-28 mb-2.5'>
+        <div className='flex items-center justify-between w-28 mb-2.5 mt-1.5'>
           <div className='flex items-center bg-white/80 px-1 rounded'>
           <h1 className='text-black text-sm font-medium blur-effect-theme'>${price}</h1>
           </div>
-          <div className='flex items-center gap-1 '>
-            <StarIcon className='icon-style w-5 h-5 md:w-4 md:h-4' />
-          <h1 className='md:text-sm text-sm font-normal text-slate-100'>{rating}</h1>
+          <div className='flex items-center justify-center gap-0.5'>
+            <StarIcon className='icon-style w-4 h-4' />
+          <h1 className='text-sm font-normal text-slate-100'>{rating}</h1>
           </div>
           </div>
           
@@ -33,10 +33,15 @@ text, img, btn, rating, price }) {
       
       {/*Image */}
 
-      <div className='flex items-center'>
+      <div className={`flex items-center
+      ${ifExists ? 'absolute top-5 right-1' : 'justify-center' }`}>
         <img 
-        className='w-64 h-36 transitions-theme hover:-rotate-12'
-       src={img} alt="item/img" />
+        className={`${
+          ifExists ? 'h-auto w-64 lg:w-56 md:w-48 transitions-theme -rotate-[35deg] hover:rotate-[0deg]' 
+          : 
+          'h-36 w-64 transitions-theme hover:-rotate-12'
+        }`}
+       src={img} alt={title} />
       </div>
     </div>
     </>
