@@ -8,7 +8,7 @@ function Footer({footerAPI:{titles, links}}) {
       <div className='nike-container text-slate-200'>
 
         {/* Container */}
-        <div className='grid items-start grid-cols-3 max-w-2xl w-full m-auto md:max-w-none gap-3 md:gap-4'>
+        <div className='grid items-start grid-cols-3 max-w-2xl w-full m-auto md:max-w-none gap-2 md:gap-3'>
           {titles.map((val, i) => (
             <div key={i}
             className='grid items-center'>

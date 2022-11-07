@@ -257,7 +257,7 @@ const story = {
       url: "https://sneakernews.com/2022/09/14/air-jordan-37-low/",
       like: "3/5",
       time: "11 Mins",
-      by: "Jared Ebanks",
+      by: "Ameera AF",
       btn: "Read More"
     },
     {
@@ -287,7 +287,7 @@ const story = {
       time: "7 Months",
       url: "https://sneakernews.com/2022/03/09/air-jordan-1-retro-high-og-yellow-toe-555088-711/",
       like: "5/5",
-      by: "Sneaker News",
+      by: "Nike Live",
       btn: "Read More"
     },
     {
@@ -297,7 +297,7 @@ const story = {
       time: "1 Months",
       url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
       like: "4/5",
-      by: "Jared Ebanks",
+      by: "Ameera AF",
       btn: "Read More"
     },
     {
@@ -307,7 +307,7 @@ const story = {
       time: "25 Days",
       url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
       like: "3/5",
-      by: "Jared Ebanks",
+      by: "Ameera AF",
       btn: "Read More"
     },
     {
@@ -357,7 +357,7 @@ const footerAPI = {
     ],
     [
       {link: "Order Status"},
-      {link: "Shipping & Delivery"},
+      {link: "Shipping"},
       {link: "Payment Options"},
       {link: "Gift Card Balance"},
       {link: "Contact Us"},
@@ -370,7 +370,7 @@ const footerAPI = {
       {link: "Find A Store"},
       {link: "Signup"},
       {link: "Nike Jouneral"},
-      {link: "Send Us Feedback"},
+      {link: "Feedback"},
     ],
   ]
 };

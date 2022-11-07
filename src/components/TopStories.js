@@ -47,15 +47,15 @@ function TopStories({ stories: { title, news } }) {
                   <div className="flex items-center justify-between w-full px-4">
                     <div className="flex items-center gap-0.5">
                       <HeartIcon className="icon-style text-red-500 w-5 h-5" />
-                      <span className="text-xs font-bold">{val.like}</span>
+                      <span className="text-xs md:text-[10px]  font-bold">{val.like}</span>
                     </div>
                     <div className="flex items-center gap-[1px]">
                       <ClockIcon className="icon-style w-4 h-4 text-black" />
-                      <span className="text-xs font-bold">{val.time}</span>
+                      <span className="text-xs md:text-[10px] font-bold">{val.time}</span>
                     </div>
                     <div className="flex items-center">
-                      <HashtagIcon className="icon-style text-blue-600 h-4 w-4" />
-                      <span className="text-xs font-bold text-blue-600">{val.by}</span>
+                      <HashtagIcon className="icon-style text-blue-600 h-3 w-3" />
+                      <span className="text-xs md:text-[10px] font-bold text-blue-600 ">{val.by}</span>
                     </div>
                   </div>
 
