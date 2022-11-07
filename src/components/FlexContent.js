@@ -13,16 +13,15 @@ function FlexContent({ifExists, endpoint2: {title, heading, text, img, btn, url}
              className='flex items-center' 
              href={url}
              target={'_blank'}
-             role="button">
+             rel="noreferrer">
             <button className='button-theme bg-slate-900 shadow-slate-900 text-slate-100 py-1' type='button'>{btn}</button>
              </a>
         </div>
 
         {/* Image Content */}
-
-        <div className='flex items-center justify-center max-w-xl relative lg:max-w-none w-full'>
+        <div className='flex items-center justify-center max-w-xl relative lg:max-w-none w-full pt-4'>
             <img 
-            className={`w-auto object-fill transitions-theme ${ifExists ? 'h-60 lg:h-56 md:h-52 sm:sm-44 xsm:h-36 rotate-6 hover:-rotate-12' : 'h-72 lg:h-64 md:h-60 sm:h-48 xsm:h-40 rotate-[19deg] hover:rotate-12'}`}
+            className={`w-auto object-fill transitions-theme ${ifExists ? 'h-60 lg:h-56 md:h-52 sm:sm-44 xsm:h-36 rotate-6 hover:-rotate-12' : 'h-72 lg:h-64 md:h-60 sm:h-48 xsm:h-40 rotate-[19deg] hover:rotate-0'}`}
             src={img} alt={title} 
             />
         </div>

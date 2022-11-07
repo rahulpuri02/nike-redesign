@@ -276,7 +276,7 @@ const story = {
       img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Max-Plus-FB3358-001-2.jpg?w=540&h=380&crop=1",
       time: "2 Hours",
       url: "https://sneakernews.com/2022/09/14/nike-air-max-plus-grey-orange-black-fb3358-001/",
-      like: "5/5",
+      like: "4/5",
       by: "Michael Le",
       btn: "Read More"
     },
@@ -296,7 +296,7 @@ const story = {
       img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-gt-cut-2-release-date.jpg?w=540&h=380&crop=1",
       time: "1 Months",
       url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
-      like: "3/5",
+      like: "4/5",
       by: "Jared Ebanks",
       btn: "Read More"
     },
@@ -345,13 +345,14 @@ const story = {
 
 
 const footerAPI = {
-  titles: [ {title: "About Nike"},{title: "Get Help"},{title: "Company"} ],
+  titles: [ {title: "About Us"},{title: "Get Help"},{title: "Company"} ],
   links: [
     [
       {link: "News"},
       {link: "Careers"},
+      {link: "Blog"},
       {link: "Investors"},
-      {link: "Prupose"},
+      {link: "Purpose"},
       {link: "Sustainability"},
     ],
     [
@@ -360,8 +361,8 @@ const footerAPI = {
       {link: "Payment Options"},
       {link: "Gift Card Balance"},
       {link: "Contact Us"},
-      {link: "FAQ"},
-      {link: "Blog"},
+      {link: "FAQs"},
+      
     ],
     [
       {link: "Gift Cards"},
