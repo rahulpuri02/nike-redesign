@@ -63,7 +63,7 @@ function TopStories({ stories: { title, news } }) {
                   <div className="grid items-center justify-items-start px-4">
                     <h1 className="text-base font-semibold lg:text-sm">{val.title}</h1>
                     <p className="text-sm text-justify lg:text-xs">
-                    {truncate(val.text, {length: 175})}
+                    {truncate(val.text, {length: 139})}
                     </p>
                   </div>
                   <div className="flex items-center justify-center px-4 w-full">

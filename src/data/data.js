@@ -56,7 +56,7 @@ const popularsales = {
   items: [
     {
       id: "0p0x1",
-      title: "Nike Addapt BB 2.0",
+      title: "Nike Adapt BB 2.0",
       text: "Men Running Shoes",
       rating: "4.9",
       btn: "Buy Now",
@@ -251,12 +251,12 @@ const story = {
   title: "Top Stories",
   news: [
     {
-      title: "Jayson Tatum Debuts",
-      text: "Jordan Brands signature model for the past few years, Jayson Tatum will be dawning the Air Jordan 37 this season before attaining potentially his first signature sneaker with Jumpman, which he rumored to be in the works recently via his Twitter.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/air-jordan-37-low.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/14/air-jordan-37-low/",
-      like: "3/5",
-      time: "11 Mins",
+      title: "Hello Kitty and Adidas",
+      text: "The world of Sanrio is vast and replete with many an iconic character. Few among the family, though, rival the immense influence of Hello Kitty, who’s played mascot for everything from Pringles merchandise to sneaker collaborations.",
+      img: "https://sneakernews.com/wp-content/uploads/2022/09/hello-kitty-adidas-superstar-GW7168-2.jpg?w=540&h=380&crop=1",
+      url: "https://sneakernews.com/2022/09/08/hello-kitty-adidas-originals-gw7166-gw7167-gw7168/",
+      time: "5 Days",
+      like: "4/5",
       by: "Ameera AF",
       btn: "Read More"
     },
@@ -267,17 +267,7 @@ const story = {
       time: "41 Mins",
       like: "5/5",
       url: "https://sneakernews.com/2022/09/14/nike-zoom-freak-4-ironstone-orange-trance-cobblestone-sail-dj6149-003/",
-      by: "Michael Le",
-      btn: "Read More"
-    },
-    {
-      title: "Nike Air Max Plus",
-      text: "The Nike Air Max Plus has enjoyed the reveal of several colorways these last few of months. And as we officially embark on the Fall season, an additional set have been added to the calendar, including this newly-revealed grey and orange colorway.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Max-Plus-FB3358-001-2.jpg?w=540&h=380&crop=1",
-      time: "2 Hours",
-      url: "https://sneakernews.com/2022/09/14/nike-air-max-plus-grey-orange-black-fb3358-001/",
-      like: "4/5",
-      by: "Michael Le",
+      by: "Micheal Le",
       btn: "Read More"
     },
     {
@@ -291,13 +281,24 @@ const story = {
       btn: "Read More"
     },
     {
-      title: "Nike Air Zoom GT Cut 2",
+      title: "Nike Air Max Plus",
+      text: "The Nike Air Max Plus has enjoyed the reveal of several colorways these last few of months. And as we officially embark on the Fall season, an additional set have been added to the calendar, including this newly-revealed grey and orange colorway.",
+      img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Max-Plus-FB3358-001-2.jpg?w=540&h=380&crop=1",
+      time: "2 Hours",
+      url: "https://sneakernews.com/2022/09/14/nike-air-max-plus-grey-orange-black-fb3358-001/",
+      like: "4/5",
+      by: "Micheal Le",
+      btn: "Read More"
+    },
+ 
+    {
+      title: "Nike Air Zoom GT",
       text: "The Bred coloryway of Zoom GT Cut 2 will be first to release this Friday, For Nike Members Nation World Wide while Sabrina Ionescus colorway is set for an October 13th release date. In the meantime, enjoy official images of both colorways below.",
       img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-gt-cut-2-release-date.jpg?w=540&h=380&crop=1",
       time: "1 Months",
       url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
       like: "4/5",
-      by: "Ameera AF",
+      by: "Micheal Le",
       btn: "Read More"
     },
     {
@@ -311,33 +312,33 @@ const story = {
       btn: "Read More"
     },
     {
-      title: "Nike Air Force Orange Color",
+      title: "Nike Air Force Orange",
       text: "From lace toggles to city-inspired makeovers, the Nike Air Force 1 has delivered a number of unique modifications. Here though, the brand is taking things down quite a few notches, opting for a simple colorway helmed primarily by black and Laser Orange.",
       img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Force-1-Black-Yellow-FB7162-081-8.jpg?w=540&h=380&crop=1",
       url: "https://sneakernews.com/2022/09/09/nike-air-force-1-black-laser-orange-fb7162-081/",
       time: "6 Days",
       like: "4/5",
-      by: "Micael Le",
+      by: "Micheal Le",
       btn: "Read More"
     },
     {
-      title: "Hello Kitty and Adidas",
-      text: "The world of Sanrio is vast and replete with many an iconic character. Few among the family, though, rival the immense influence of Hello Kitty, who’s played mascot for everything from Pringles merchandise to sneaker collaborations.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/hello-kitty-adidas-superstar-GW7168-2.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/08/hello-kitty-adidas-originals-gw7166-gw7167-gw7168/",
-      time: "5 Days",
-      like: "4/5",
-      by: "Micael Le",
+      title: "Jayson Tatum Debuts",
+      text: "Jordan Brands signature model for the past few years, Jayson Tatum will be dawning the Air Jordan 37 this season before attaining potentially his first signature sneaker with Jumpman, which he rumored to be in the works recently via his Twitter.",
+      img: "https://sneakernews.com/wp-content/uploads/2022/09/air-jordan-37-low.jpg?w=540&h=380&crop=1",
+      url: "https://sneakernews.com/2022/09/14/air-jordan-37-low/",
+      like: "3/5",
+      time: "11 Mins",
+      by: "Jordan Paul",
       btn: "Read More"
     },
     {
-      title: "Air Force 1 Low Expands",
+      title: "Air Force 1 Expands",
       text: "The nighttime aesthetic seen here is applied to the tumbled black leather panels of the upper and perforated mesh construction of the tongue while Royal trim and forefoot Swooshes provide additional intrigue to the darkened palette.",
       img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-air-force-1-low-worldwide-black-royal-fb1840-001-lead.jpg?w=540&h=380&crop=1",
       url: "https://sneakernews.com/2022/09/08/nike-air-force-1-low-worldwide-black-royal-fb1840-001/",
       time: "5 Days",
       like: "4/5",
-      by: "Micael Le",
+      by: "Micheal Le",
       btn: "Read More"
     },
   ],
