@@ -4,7 +4,7 @@ import { ChevronDoubleLeftIcon, XMarkIcon} from "@heroicons/react/24/solid";
 function CartCount({backToHome}) {
   return (
     <>
-    <div className='bg-white h-11 flex items-center justify-between px-3 fixed top-0 left-0 right-0 w-full '>
+    <div className='bg-white h-11 flex items-center justify-between px-3 sticky top-0 left-0 right-0 w-full '>
         <div className='flex items-center gap-2.5'>
             <div onClick={backToHome} className='grid items-center cursor-pointer'>
             <ChevronDoubleLeftIcon 
