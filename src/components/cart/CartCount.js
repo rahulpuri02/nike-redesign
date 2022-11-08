@@ -1,12 +1,12 @@
 import React from 'react'
 import { ChevronDoubleLeftIcon, XMarkIcon} from "@heroicons/react/24/solid";
 
-function CartCount() {
+function CartCount({backToHome}) {
   return (
     <>
     <div className='bg-white h-11 flex items-center justify-between px-3 fixed top-0 left-0 right-0 w-full '>
         <div className='flex items-center gap-2.5'>
-            <div className='grid items-center cursor-pointer'>
+            <div onClick={backToHome} className='grid items-center cursor-pointer'>
             <ChevronDoubleLeftIcon 
             className='h-5 w-5 text-slate-900 hover:text-orange-500 stroke-[2]'/></div>
             <div className='grid items-center cursor-pointer'>
