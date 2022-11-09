@@ -359,8 +359,8 @@ const footerAPI = {
     [
       {link: "Order Status"},
       {link: "Shipping"},
-      {link: "Payment Options"},
-      {link: "Gift Card Balance"},
+      {link: "Payments"},
+      {link: "Gifts Balance"},
       {link: "Contact Us"},
       {link: "FAQs"},
       

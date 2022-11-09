@@ -7,7 +7,7 @@ function App() {
    <>
     <Navbar />
     <Cart />
-   <main className='flex flex-col gap-16 relative overflow-x-hidden'>
+   <main className='flex flex-col gap-16 sm:gap-13 relative overflow-x-hidden'>
     <Hero heroapi={heroapi} />
     <Sales endpoint={popularsales} ifExists />
     <FlexContent endpoint2={highlight} ifExists />

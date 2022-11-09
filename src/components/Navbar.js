@@ -1,11 +1,12 @@
 import React from 'react'
 import {MagnifyingGlassIcon, HeartIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
 import logo from '../assets/logo.png';
-import { useDispatch } from 'react-redux';
-import { openCart } from '../redux/CartSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { openCart, selectCartTotalQuantity } from '../redux/CartSlice';
 function Navbar() {
 
   const dispatch = useDispatch();
+  const cartTotatQuantity = useSelector(selectCartTotalQuantity);
 
   const goToCart = () => {
   dispatch(openCart({
@@ -29,7 +30,8 @@ function Navbar() {
             <ShoppingBagIcon 
             onClick={goToCart}
             className='icon-style'/>
-            <div className="cart-quantity">0</div>
+              <div className="cart-quantity">{cartTotatQuantity}</div>          
+            <div className="cart-quantity">{cartTotatQuantity}</div>
             </button></li>
         </ul>
     </nav>

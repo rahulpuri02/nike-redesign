@@ -3,7 +3,7 @@ import React from 'react'
 function Footer({footerAPI:{titles, links}}) {
   return (
     <>
-    <footer className='bg-theme pt-7 pb-5'>
+    <footer className='bg-theme pt-7 pb-4'>
       {/*Wrapper */}
       <div className='nike-container text-slate-200'>
 
@@ -21,7 +21,7 @@ function Footer({footerAPI:{titles, links}}) {
             className='grid items-center gap-1'>
             {list.map((link, i) => (
               <li key={i} 
-              className='text-sm sm:text-xs'>
+              className='sm:text-xs text-sm'>
               {link.link}</li>
             ))}
             </ul>
