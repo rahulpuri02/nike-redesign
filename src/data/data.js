@@ -201,7 +201,7 @@ const topratedsales = {
     },
     {
       id: "0M0x9",
-      title: "Nike Old Max-x",
+      title: "Nike Old Max-X",
       text: "Men Running Shoes",
       rating: "5+",
       btn: "Buy Now",

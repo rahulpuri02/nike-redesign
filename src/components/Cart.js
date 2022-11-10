@@ -48,7 +48,7 @@ function Cart() {
       >
         <CartCount backToHome={backToHome} handleClearCart={handleClearCart} cartTotalQuantity={cartTotalQuantity} />
         {cartItems?.length === 0 ? <CartEmpty backToHome={backToHome} /> : <div>
-          <div className="flex items-start justify-start flex-col gap-y-7 lg:gap-y-5 overflow-y-scroll h-[81vh] scroll-smooth scroll-hidden p-3">
+          <div className="flex items-start justify-start flex-col gap-y-7 lg:gap-y-5 overflow-y-scroll h-[81vh] scroll-smooth scroll-hidden p-3 pb-8">
             {cartItems?.map((item, i) => (
               <CartItem key={i} item={item} />
             ))}

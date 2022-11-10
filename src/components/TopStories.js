@@ -17,7 +17,6 @@ function TopStories({ stories: { title, news } }) {
     keyboard: 'global',
     gap: '1rem',
     pagination: false,
-    padding: '2rem',
     breakpoints: {
       1200: { perPage: 3},
       991: { perPage: 2.3},

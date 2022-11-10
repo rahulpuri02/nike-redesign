@@ -3,6 +3,8 @@ import {MagnifyingGlassIcon, HeartIcon, ShoppingBagIcon } from '@heroicons/react
 import logo from '../assets/logo.png';
 import { useDispatch, useSelector } from 'react-redux';
 import { openCart, selectCartTotalQuantity } from '../redux/CartSlice';
+
+
 function Navbar() {
 
   const dispatch = useDispatch();
@@ -30,8 +32,9 @@ function Navbar() {
             <ShoppingBagIcon 
             onClick={goToCart}
             className='icon-style'/>
-              <div className="cart-quantity">{cartTotatQuantity}</div>          
-            <div className="cart-quantity">{cartTotatQuantity}</div>
+            {cartTotatQuantity > 0 &&
+            <div className="cart-quantity">{cartTotatQuantity}</div>          
+            }             
             </button></li>
         </ul>
     </nav>
